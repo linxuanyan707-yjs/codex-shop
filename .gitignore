@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Production/build output
+dist/
+build/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and debug output
+*.log
+logs/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
